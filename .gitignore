@@ -1,6 +1,9 @@
 # Ignore Maven target directory (build artifacts)
 target/
 
+# Ignore Maven local repository (cached dependencies)
+.m2/
+
 # Ignore IDE files (IntelliJ IDEA, Eclipse, etc.)
 
 # IntelliJ IDEA
@@ -26,8 +29,26 @@ Thumbs.db
 *.swp
 *.swo
 
-# Ignore local environment files
+# Ignore environment files
 .env
 
 # Ignore Docker-related files (optional)
 .dockerignore
+
+# Ignore SSH config files (optional)
+.ssh/
+
+# Ignore local shell configuration files
+.bash_history
+.bash_logout
+.bashrc
+.lesshst
+.profile
+
+# Ignore cache files and directories
+.cache/
+.local/
+
+# Ignore other potentially unnecessary files
+.sudo_as_admin_successful
+
