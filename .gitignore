@@ -1,0 +1,33 @@
+# Ignore Maven target directory (build artifacts)
+target/
+
+# Ignore IDE files (IntelliJ IDEA, Eclipse, etc.)
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.project
+*.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# Ignore OS-specific files (MacOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+
+# Ignore local environment files
+.env
+
+# Ignore Docker-related files (optional)
+.dockerignore
